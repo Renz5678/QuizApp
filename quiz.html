@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Quiz time</title>
+</head>
+<body>
+    <div class="container-wrapper">
+        <div class="greeting-card visible" id="greeting-card">
+            <div class="greeting">
+                Hello!
+            </div>
+
+            <div class="greeting-body">
+                <div class="name-prompt"> What is your name? </div>
+                <input type="text" placeholder="Name" id="name" autocapitalize="on" autocomplete="off">
+                <button class="submit-name" id="submit-name">Submit</button>
+            </div>
+        </div>
+
+        <div class="quiz-prompt" id="quiz-prompt">
+            <div class="greeting-name" id="greeting">
+                Hello!
+            </div>
+
+            <div class="prompt-body">
+                <div class="choice-prompt"> Would you like to take this quiz?😁👌 </div>
+                <button class="yes" id="yes">Yes!!</button>
+                <button class="no" id="no">No im a loser :((</button>
+            </div>
+        </div>
+
+        <div class="quiz-card" id="quiz-card">
+            <div class="quiz-number" id="quiz-number">
+                Question #
+            </div>
+
+            <div class="question" id="question">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis eveniet cupiditate labore alias corporis? Doloribus excepturi minima molestias dolore quam facere a at, delectus dicta! Accusantium atque sit nesciunt impedit.
+            </div>
+            
+            <div class="choice-box" id="choice-box">
+            </div>
+        </div>
+
+        <div class="end-modal" id="end-modal">
+            <div class="endName" id="endName">
+                Lopet Mo!
+            </div>
+            <div class="score-and-congrats" id="pointscongrats">
+                <div class="score" id="points">
+                    5/5
+                </div>
+
+                <div class="congrats" id="congrats">
+                    napakagaling
+                </div>
+
+                <button class="startAgain" id="startButton">Start again?</button>
+            </div>
+        </div>
+    </div>
+    <script src="quiz.js"></script>
+</body>
+</html>
