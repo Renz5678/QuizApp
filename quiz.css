@@ -282,3 +282,78 @@ html, body {
 .startAgain:hover {
     background-color:#999999;
 }
+
+@media (max-width: 1024px) {
+    .greeting-card {
+        height: 40%;
+        width: 40%;
+    }
+
+    .quiz-prompt {
+        width: 60%;
+    }
+
+    .quiz-card.visible {
+        width: 80%;
+    }
+
+    .endName {
+        font-size: 2rem;
+    }
+
+    .score-and-congrats {
+        font-size: 1.5rem;
+    }
+
+    .end-modal.visible {
+        height: 40%;
+    }
+
+    .startAgain {
+        height: 3rem;
+        margin-top: 12px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .greeting-card {
+        width: 90%;
+        height: 45%;
+    }
+
+    .greeting {
+        font-size: 1.5rem;
+    }
+
+    .submit-name {
+        width: 50%;
+    }
+
+    .quiz-prompt {
+        width: 90%;
+        height: 60%;
+    }
+
+    .greeting-name {
+        font-size: 1.5rem;
+    }
+
+    .question {
+        font-size: 1rem;
+    }
+
+    .quiz-card.visible {
+        width: 90%;
+    }
+
+    .end-modal.visible {
+        width: 90%;
+        height: 55%;
+    }
+
+    .endName {
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+}
